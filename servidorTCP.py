@@ -6,13 +6,21 @@ from _thread import *
 import threading
 import logging
 import hashlib
-#print_lock = threading.Lock()
+import time
 
+#print_lock = threading.Lock()
+logging.basicConfig(filename="clientLog.log", level=logging.INFO,
+                    format='%(asctime)s %(levelname)-8s %(message)s',
+                    datefmt='%Y-%m-%d %H:%M:%S'
+                    )
 # thread function
 # c is the socket object with which connection was made, used to send and receive messages
 def threaded(c):
+    start_time= time.time()
     m = hashlib.sha256()
+    logging.info("SERVIDOR- INICIO DE PRUEBA")
     print("El archivo que se va a abrir es: ",file)
+    logging.info("SERVIDOR- el archivo que se abrio fue %s ",file)
     with open(file,'rb') as f:
         while True:
             # data received from client
@@ -32,15 +40,14 @@ def threaded(c):
             c.send(data)
 
      # connection closed
+
     c.close()
 
 
 def Main():
+
     #Initializes the server log
-    logging.basicConfig(filename="serverLog.log", level=logging.INFO,
-    format = '%(asctime)s %(levelname)-8s %(message)s',
-    datefmt = '%Y-%m-%d %H:%M:%S'
-    )
+
     host = "localhost"
     # reverse a port on your computer
     # in our case it is 12345 but it
@@ -66,7 +73,7 @@ def Main():
     file=f
     print("Archivo seleccionado: ",file)
     num_conn= int( input('\n Cuantas conexiones desea recibir?' ))
-
+    logging.info("SERVIDOR- el numero de conexiones es de %s ",num_conn)
     print("Esperando conexiones:")
 
     #Counter with number of conection receibed
@@ -83,7 +90,6 @@ def Main():
         start_new_thread(threaded, (c,))
         cont+=1
     s.close()
-
 
 
 Main()

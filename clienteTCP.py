@@ -35,7 +35,7 @@ def threaded(i,m):
     # connect to server on local computer
     s.connect((host, port))
     print("Thread #%d Ready to receive info ",i)
-    logging.info("Thread #%d ready to receive info",i)
+    logging.info("CLIENTE Thread #%d ready to receive info",i)
     f=open("ctext.txt",'wb')
     while True:
         # message received from server
@@ -55,14 +55,14 @@ def threaded(i,m):
             print("Hash creado ",m.hexdigest())
             if m.hexdigest() == realM.decode():
                 print("Hash correcto")
-                logging.info("Envio exitoso")
+                logging.info("CLIENTE hash correcto")
             else:
                 print("Hash incorrecto")
-                logging.info("Envio corrupto ")
+                logging.info("CLIENTE hash corrupto ")
 
         m.update(data)
 
-    logging.info("Tiempo del envio %s",(time.time()-start_time))
+    logging.info("CLIENTE Tiempo del envio %s",(time.time()-start_time))
     logging.info("---------------------------------------------")
     s.close()
 
