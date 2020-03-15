@@ -1,55 +1,52 @@
-INFO:root:Ready to receive info :)
-INFO:root:Ready to receive info :)
-INFO:root:Ready to receive info :)
-INFO:root:Ready to receive info :)
-INFO:root:Ready to receive info :)
-INFO:root:Connecting to the port 6666
-INFO:root:Ready to receive info :)
-INFO:root:Connecting to the host 127.0.0.1
-INFO:root:Connecting to the port 6666
-INFO:root:Ready to receive info :)
-INFO:root:Connecting to the host 127.0.0.1
-INFO:root:Connecting to the port 6666
-INFO:root:Ready to receive info :)
-2020-03-14 21:58:12 INFO     Connecting to the host 127.0.0.1
-2020-03-14 21:58:12 INFO     Connecting to the port 6666
-2020-03-14 21:58:12 INFO     Ready to receive info :)
-2020-03-14 21:58:33 INFO     Connecting to the host 127.0.0.1
-2020-03-14 21:58:33 INFO     Connecting to the port 6666
-2020-03-14 21:58:33 INFO     Ready to receive info :)
-2020-03-15 14:54:17 INFO     Thread #0 ready to receive info
-2020-03-15 14:54:42 INFO     Thread #0 ready to receive info
-2020-03-15 14:54:58 INFO     Thread #0 ready to receive info
-2020-03-15 14:54:58 INFO     Found hash
-2020-03-15 14:54:58 INFO     Envio exitoso
-2020-03-15 14:57:20 INFO     Thread #0 ready to receive info
-2020-03-15 14:57:37 INFO     Thread #0 ready to receive info
-2020-03-15 14:57:37 INFO     Found hash
-2020-03-15 14:57:37 INFO     Envio exitoso
-2020-03-15 14:59:03 INFO     Thread #0 ready to receive info
-2020-03-15 14:59:19 INFO     Thread #0 ready to receive info
-2020-03-15 14:59:19 INFO     Found hash
-2020-03-15 14:59:19 INFO     Envio exitoso
-2020-03-15 14:59:19 INFO     Tiempo del envio 0.012067079544067383
-2020-03-15 14:59:19 INFO     ---------------------------------------------
-2020-03-15 15:08:34 INFO     Thread #0 ready to receive info
-2020-03-15 15:08:34 INFO     Found hash
-2020-03-15 15:08:34 INFO     Envio exitoso
-2020-03-15 15:08:34 INFO     Tiempo del envio 0.011000394821166992
-2020-03-15 15:08:34 INFO     ---------------------------------------------
-2020-03-15 15:08:34 INFO     Thread #1 ready to receive info
-2020-03-15 15:08:48 INFO     Thread #0 ready to receive info
-2020-03-15 15:08:48 INFO     Found hash
-2020-03-15 15:08:48 INFO     Envio exitoso
-2020-03-15 15:08:48 INFO     Tiempo del envio 0.011000871658325195
-2020-03-15 15:08:48 INFO     ---------------------------------------------
-2020-03-15 15:10:37 INFO     Thread #0 ready to receive info
-2020-03-15 15:10:37 INFO     Found hash
-2020-03-15 15:10:37 INFO     Envio exitoso
-2020-03-15 15:10:37 INFO     Tiempo del envio 0.008013725280761719
-2020-03-15 15:10:37 INFO     ---------------------------------------------
-2020-03-15 15:10:37 INFO     Thread #1 ready to receive info
-2020-03-15 15:10:37 INFO     Found hash
-2020-03-15 15:10:37 INFO     Envio corrupto 
-2020-03-15 15:10:37 INFO     Tiempo del envio 0.009982585906982422
-2020-03-15 15:10:37 INFO     ---------------------------------------------
+
+2020-03-15 15:39:49 INFO     Thread #0 ready to receive info
+2020-03-15 15:39:49 INFO     Found hash
+2020-03-15 15:39:49 INFO     Envio exitoso
+2020-03-15 15:39:49 INFO     Tiempo del envio 0.010002613067626953
+2020-03-15 15:39:49 INFO     ---------------------------------------------
+2020-03-15 15:39:49 INFO     Thread #1 ready to receive info
+2020-03-15 15:39:49 INFO     Found hash
+2020-03-15 15:39:49 INFO     Envio corrupto 
+2020-03-15 15:39:49 INFO     Tiempo del envio 0.009019851684570312
+2020-03-15 15:39:49 INFO     ---------------------------------------------
+2020-03-15 15:39:49 INFO     Thread #2 ready to receive info
+2020-03-15 15:39:49 INFO     Found hash
+2020-03-15 15:39:49 INFO     Envio corrupto 
+2020-03-15 15:39:49 INFO     Tiempo del envio 0.009018182754516602
+2020-03-15 15:39:49 INFO     ---------------------------------------------
+2020-03-15 15:41:57 INFO     Thread #0 ready to receive info
+2020-03-15 15:41:57 INFO     Found hash
+2020-03-15 15:41:57 INFO     Envio exitoso
+2020-03-15 15:41:57 INFO     Tiempo del envio 0.008018016815185547
+2020-03-15 15:41:57 INFO     ---------------------------------------------
+2020-03-15 15:41:57 INFO     Thread #1 ready to receive info
+2020-03-15 15:41:57 INFO     Found hash
+2020-03-15 15:41:57 INFO     Envio exitoso
+2020-03-15 15:41:57 INFO     Tiempo del envio 0.009999752044677734
+2020-03-15 15:41:57 INFO     ---------------------------------------------
+2020-03-15 15:41:57 INFO     Thread #2 ready to receive info
+2020-03-15 15:41:57 INFO     Found hash
+2020-03-15 15:41:57 INFO     Envio exitoso
+2020-03-15 15:41:57 INFO     Tiempo del envio 0.009998798370361328
+2020-03-15 15:41:57 INFO     ---------------------------------------------
+2020-03-15 15:42:44 INFO     Thread #0 ready to receive info
+2020-03-15 15:43:01 INFO     Thread #0 ready to receive info
+2020-03-15 15:43:01 INFO     Found hash
+2020-03-15 15:43:01 INFO     Envio exitoso
+2020-03-15 15:43:01 INFO     Tiempo del envio 0.0110015869140625
+2020-03-15 15:43:01 INFO     ---------------------------------------------
+2020-03-15 15:43:01 INFO     Thread #1 ready to receive info
+2020-03-15 15:43:01 INFO     Found hash
+2020-03-15 15:43:01 INFO     Envio exitoso
+2020-03-15 15:43:01 INFO     Tiempo del envio 0.00800013542175293
+2020-03-15 15:43:01 INFO     ---------------------------------------------
+2020-03-15 15:43:01 INFO     Thread #2 ready to receive info
+2020-03-15 15:43:01 INFO     Found hash
+2020-03-15 15:43:01 INFO     Envio exitoso
+2020-03-15 15:43:01 INFO     Tiempo del envio 0.01000070571899414
+2020-03-15 15:43:01 INFO     ---------------------------------------------
+2020-03-15 15:43:01 INFO     Thread #3 ready to receive info
+2020-03-15 15:43:01 INFO     Found hash
+2020-03-15 15:43:01 INFO     Envio exitoso
+2020-03-15 15:43:01 INFO     Tiempo del envio 0.010000467300415039
+2020-03-15 15:43:01 INFO     ---------------------------------------------

@@ -11,7 +11,7 @@ import hashlib
 # thread function
 # c is the socket object with which connection was made, used to send and receive messages
 def threaded(c):
-    m = hashlib.sha1()
+    m = hashlib.sha256()
     print("El archivo que se va a abrir es: ",file)
     with open(file,'rb') as f:
         while True:

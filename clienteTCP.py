@@ -6,7 +6,7 @@ import time
 from _thread import *
 from threading import Thread
 def Main():
-    m=hashlib.sha1()
+
     #Initializes the client log
     logging.basicConfig(filename="clientLog.log", level=logging.INFO,
     format = '%(asctime)s %(levelname)-8s %(message)s',
@@ -14,6 +14,7 @@ def Main():
     )
     numt=int(input("Cuantos threads de cliente quiere correr?"))
     for i in range(numt):
+        m = hashlib.sha256()
         print("entre al for")
         try:
             thread = Thread(target = threaded, args = (i,m,))
