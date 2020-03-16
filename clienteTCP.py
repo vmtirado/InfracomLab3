@@ -41,7 +41,6 @@ def threaded(i,m):
         # message received from server
         data = s.recv(1024)
         #f.write(data)
-        print(data)
         if not data:
             print("Termino el envio")
             break

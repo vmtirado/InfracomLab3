@@ -35,7 +35,6 @@ def threaded(c):
                 c.send(("HASH"+h).encode())
                 break
             # send back reversed string to client
-            print("Mando: ",data)
             m.update(data)
             c.send(data)
 
@@ -66,9 +65,9 @@ def Main():
                      "\n 1. 100 mib"
                      "\n 2. 250 mib"))
     if texto==1:
-        f="text1.txt"
+        f="file1"
     else:
-        f="text2.txt"
+        f="file2.txt"
     global file
     file=f
     print("Archivo seleccionado: ",file)
